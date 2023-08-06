@@ -1,9 +1,10 @@
+import Formulaire from "./Formulaire"
 
 
 function Body() {
   return (
     <div className="bodyContent">
-        <h2>Corps de la SPA</h2>
+        <Formulaire/>
       
     </div>
   )

@@ -3,7 +3,7 @@
 function Header() {
   return (
     <div className="header">
-        <h2>To Do List React 2023</h2>
+        <h1>To Do List React 2023</h1>
       
     </div>
   )

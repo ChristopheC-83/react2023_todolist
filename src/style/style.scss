@@ -8,7 +8,13 @@
 @import "communs/overlay";
 
 .APP {
-  background-color: $blanc;
+  background: linear-gradient(
+  60deg,
+  rgba(241, 241, 241, 1) 0%,
+  rgba(61, 133, 245, 1) 20%,
+  rgba(61, 133, 245, 1) 80%,
+  rgba(51, 51, 51, 1) 100%
+);
   color: $noir;
   min-height: 100vh;
   position: relative;
@@ -22,7 +28,8 @@
 .bodyContent {
   width: 90%;
   margin: 0 auto;
-  min-width: 900px;
+  max-width: 900px;
+  border : 1px $noir dashed;
   flex-grow: 1;
-  background-color: $blanc;
+  
 }
