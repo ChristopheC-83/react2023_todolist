@@ -340,6 +340,52 @@ p {
   display: none;
 }
 
+.listItem {
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 400px;
+  max-width: 650px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(51, 51, 51, 0.4588235294);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listItem span {
+  font-size: clamp(16px, 14px + 0.6vw, 22px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.listItem button {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.listeVide {
+  text-align: center;
+}
+
+.h4TodoList {
+  color: crimson;
+  margin: 0 auto;
+  font-size: clamp(14px, 124px + 0.6vw, 18px);
+  text-align: center;
+}
+
 .APP {
   background: linear-gradient(60deg, rgb(241, 241, 241) 0%, rgb(61, 133, 245) 20%, rgb(61, 133, 245) 80%, rgb(51, 51, 51) 100%);
   color: #333;

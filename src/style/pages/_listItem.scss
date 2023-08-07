@@ -1,0 +1,46 @@
+.listItem{width: fit-content;
+    min-width: 400px;
+    max-width: 650px;
+    background-color: $blanc;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid $noir;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #33333375;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+    
+  font-size: clamp(16px, calc(14px + 0.6vw), 22px);
+  font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button{
+        width: 25px;
+        height:25px;
+        @include flexMid;
+        background-color:red;
+        border: none;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 15px;
+        color : $blanc;
+        cursor: pointer;
+    }
+}
+
+.listeVide{
+    text-align: center;
+}
+
+.h4TodoList{
+    color : crimson;
+    margin: 0 auto;
+    
+  font-size: clamp(14px, calc(124px + 0.6vw), 18px);
+  text-align: center;
+
+}
